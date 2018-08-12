@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom css for the webpage -->
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Woodland Hills Woods</title>
+</head>
+<body class="bg-olive">
+    <!-- This is the container for the Navbar which is alw
+    ays shown on the web page.-->
+    <div class="container">
+        <div class="row"> <!-- START Navbar Row -->
+            <div class="column ">
+                <!-- Start of the top Navbar -->
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <!-- This toggles collapseablity -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavBar">
+                                <span class="sr-only">Toggle navigation</span>
+                              </button>
+                              <strong><a id="mainLogo" class="navbar-brand" href="#"><span class="main-logo">Woodland Hills</span></a></strong>
+                        </div>
+                        <!-- This is what can collapse -->
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="#mainNavBar">
+                            <ul class="nav navbar-nav">
+                                <li><a id="mainTrees" href="#">Trees</a></li>
+                                <li><a id="mainShrubs" href="#">Shrubs</a></li>
+                                <li><a id="mainGrounds" href="#">Ground Covers</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a id="adminLogin" href="#"><span class="glyphicon glyphicon-log-in"></span> Admin Portal</a></li>
+                            </ul>
+                            <!-- this is the search button/icon
+                            <form class="navbar-form navbar-right" role="search">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Search" />
+                                </div>
+                                <button id="findButton" class="btn btn-default">Find</button>
+                            </form>
+                            -->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div> <!-- END Navbar row -->
+    </div> <!-- end of navbar container -->
+    <!-- This is the container that will hold all the content for the page it is what is changed when the links in nav are pressed -->
+    <div id="mainContent" class="navbar-buffer well" >
+    <!-- ******************************************************************************** -->
+    <!-- *                                                                              * -->
+    <!-- *  This is where the main conent of the web page will be updated and changed.  * -->
+    <!-- *                                                                              * -->
+    <!-- ******************************************************************************** -->
+    </div><!-- END MAIN CONTENT CONTAINER  -->
+    <!-- This is the footer container and should contain all information we want in the footer. -->
+    <div class="footer-mar-top "> <!-- START of Footer container -->
+        <div class="row">
+            <div class="column">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li><a id="home" href="#">Home</a></li>
+                            <li><a id="contact" href="#">Contact Us</a></li>
+                            <li><a id="about" href="#">About</a></li>
+                            <li><a id="faq" href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery javascript-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="scripts/view.js"></script>
+</body>
+</html>
